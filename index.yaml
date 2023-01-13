@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  registry:
+  - apiVersion: v2
+    appVersion: "2"
+    created: "2023-01-13T06:48:27.51705445Z"
+    description: local registry
+    digest: 34453c44ec8185a5555f1eec49a00e084f0ef58baf37fb164a5fdfc120fe9f5b
+    name: registry
+    type: application
+    urls:
+    - https://github.com/yinheli/k8s-local-registry/releases/download/registry-0.1.0/registry-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-13T06:48:27.517059351Z"
