@@ -6,6 +6,6 @@ local registry
 
 ```bash
 helm upgrade --install registry registry \
-  --repo https://github.com/yinheli/k8s-local-registry/charts \
+  --repo https://yinheli.com/k8s-local-registry \
   --namespace default
 ```
