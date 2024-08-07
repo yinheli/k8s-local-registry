@@ -11,6 +11,7 @@ spec:
   selector:
     matchLabels:
       {{- include "registry.selectorLabels" . | nindent 6 }}
+  serviceName: {{ include "registry.fullname" . }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
